@@ -12,6 +12,6 @@ cols = step/2;
 
 %% Collect output
 output = reshape(b1+256*b2,length(b1)/cols,cols);
-
+output = output';
 end
 
